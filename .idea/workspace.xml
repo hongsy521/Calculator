@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b9f05b9-5513-4725-8ea4-cca157e628ba" name="Changes" comment="LEVEL1-(1)(2)(3)(4) commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3b9f05b9-5513-4725-8ea4-cca157e628ba" name="Changes" comment="Lev1-(5) 배열에 10개 저장">
       <change beforePath="$PROJECT_DIR$/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,12 +82,21 @@
       <option name="project" value="LOCAL" />
       <updated>1714141197311</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Lev1-(5) 배열에 10개 저장">
+      <option name="closed" value="true" />
+      <created>1714142643415</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714142643415</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="LEVEL1-(1)(2)(3)(4) commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="LEVEL1-(1)(2)(3)(4) commit" />
+    <MESSAGE value="Lev1-(5) 배열에 10개 저장" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lev1-(5) 배열에 10개 저장" />
   </component>
 </project>

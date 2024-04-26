@@ -38,13 +38,13 @@ public class App {
             }
             // System.out.println(count);
             resultArr[count]=result;   // 결과값 배열에 저장
-            count+=1;                  // count 세기
-
-            System.out.println("결과 : "+result);
+            System.out.println("결과 : "+resultArr[count]);
             System.out.println("더 계산하시겠습니까? (exit 입력시 종료)");
             String input=sc.next();
             if(input.equals("exit")){
                 break;
+            }else {
+                count+=1;
             }
         }
 
