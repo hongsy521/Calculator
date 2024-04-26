@@ -48,7 +48,10 @@ public class App {
             System.out.println("저장된 연산결과를 조회하시겠습니까? (inquiry 입력 시 조회)");
             String QInquiry = sc.next();
             if(QInquiry.equals("inquiry")){
-                System.out.println("list : "+ resultList);
+                for (Integer i : resultList) {
+                    System.out.print(i+" ");
+                }
+                System.out.println();
             }
             System.out.println("더 계산하시겠습니까? (exit 입력시 종료)");
             String QMore=sc.next();
