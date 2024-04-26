@@ -5,6 +5,8 @@ public class App {
             // 계산기 프로젝트
         Scanner sc = new Scanner(System.in);
         int result=0;
+        int[] resultArr=new int[10];  // 연산결과 저장할 배열 선언 - 크기 10
+        int count=0;
 
         while (true){
             System.out.print("첫번째 숫자를 입력하세요 : ");
@@ -34,6 +36,10 @@ public class App {
                 default:
                     System.out.println("잘못된 연산 기호입니다.");
             }
+            // System.out.println(count);
+            resultArr[count]=result;   // 결과값 배열에 저장
+            count+=1;                  // count 세기
+
             System.out.println("결과 : "+result);
             System.out.println("더 계산하시겠습니까? (exit 입력시 종료)");
             String input=sc.next();
