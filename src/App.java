@@ -40,7 +40,7 @@ public class App {
 
             resultList.add(result);
             System.out.println("결과 : "+ result);
-            System.out.println("list : "+resultList.toString());
+            System.out.println("list : "+ resultList);
             System.out.println("가장 먼저 저장된 연산 결과를 삭제하시겠습니까? (remove 입력 시 삭제)");
             String QRemove = sc.next();
             if(QRemove.equals("remove")){
