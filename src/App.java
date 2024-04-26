@@ -39,8 +39,6 @@ public class App {
             String input=sc.next();
             if(input.equals("exit")){
                 break;
-            } else {
-                continue;
             }
         }
 
