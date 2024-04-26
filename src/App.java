@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class App {
@@ -36,15 +37,22 @@ public class App {
                 default:
                     System.out.println("잘못된 연산 기호입니다.");
             }
-            // System.out.println(count);
+            if(count >=resultArr.length){   // 배열이 꽉차면
+                for(int i=0;i<resultArr.length-1;i++){  // -1 안하면 index 초과 오류 뜸.. 조심..
+                    resultArr[i]=resultArr[i+1];   // 값을 한칸 index 앞으로 옮기기
+                }
+                count--; // count를 마지막 index 번호로 재설정
+            }
             resultArr[count]=result;   // 결과값 배열에 저장
             System.out.println("결과 : "+resultArr[count]);
+            System.out.println("배열 결과 : "+ Arrays.toString(resultArr));
+
             System.out.println("더 계산하시겠습니까? (exit 입력시 종료)");
             String input=sc.next();
             if(input.equals("exit")){
                 break;
             }else {
-                count+=1;
+                count++;
             }
         }
 
