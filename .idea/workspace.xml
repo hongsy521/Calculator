@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b9f05b9-5513-4725-8ea4-cca157e628ba" name="Changes" comment="Lev1-(8) list forEach문으로 출력">
-      <change afterPath="$PROJECT_DIR$/src/BadInputException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Calculator.java" afterDir="false" />
+    <list default="true" id="3b9f05b9-5513-4725-8ea4-cca157e628ba" name="Changes" comment="Lev2-(1)(2) 필요없는 import 삭제">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +147,23 @@
       <option name="project" value="LOCAL" />
       <updated>1714148716987</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Lev2-(1)(2) 클래스 나눔 / 예외처리">
+      <option name="closed" value="true" />
+      <created>1714391884501</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1714391884501</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Lev2-(1)(2) 필요없는 import 삭제">
+      <option name="closed" value="true" />
+      <created>1714391976094</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1714391976094</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -161,6 +176,8 @@
     <MESSAGE value="Lev1-(7) 굳이 필요 없는 toString() 제거" />
     <MESSAGE value="Lev1-(8) list 출력" />
     <MESSAGE value="Lev1-(8) list forEach문으로 출력" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lev1-(8) list forEach문으로 출력" />
+    <MESSAGE value="Lev2-(1)(2) 클래스 나눔 / 예외처리" />
+    <MESSAGE value="Lev2-(1)(2) 필요없는 import 삭제" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lev2-(1)(2) 필요없는 import 삭제" />
   </component>
 </project>

@@ -21,7 +21,10 @@ public class App {
             }catch (BadInputException e){
                 System.out.println(e.getMessage());
             }
-
+            // 연산 결과 저장하는 컬렉션 필드 가져오기
+            System.out.println(calculator.getResultList());
+            // 컬렉션 필드 수정하기
+            calculator.setResultList(calculator.getResultList());
 
             /*System.out.println("가장 먼저 저장된 연산 결과를 삭제하시겠습니까? (remove 입력 시 삭제)");
             String QRemove = sc.next();

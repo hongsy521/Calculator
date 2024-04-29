@@ -28,6 +28,13 @@ public class Calculator {
         }
         System.out.println("결과 : "+ result);
         resultList.add(result);
-        System.out.println(resultList);
+    }
+    // 캡슐화를 통해 간접 접근 하도록 함
+    public List<Integer> getResultList() {
+        return resultList;
+    }
+
+    public void setResultList(List<Integer> resultList) {
+        this.resultList = resultList;
     }
 }
