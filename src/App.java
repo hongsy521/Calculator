@@ -51,6 +51,8 @@ public class App {
                     int raduis=sc.nextInt();
                     // 원 넓이 구하는 메서드 호출
                     System.out.println("결과 : "+calculator.calculateCircleArea(raduis));
+                    // 필드에 간접 접근
+                    calculator.setCircleAreaList(calculator.getCircleAreaList());
 
                     System.out.println("저장된 연산결과를 조회하시겠습니까? (yes 입력 시 조회)");
                     String QInquiry2 = sc.next();

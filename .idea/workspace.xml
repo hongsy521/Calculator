@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b9f05b9-5513-4725-8ea4-cca157e628ba" name="Changes" comment="Lev2-(6) 불필요한 import 제거">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3b9f05b9-5513-4725-8ea4-cca157e628ba" name="Changes" comment="Lev2-(7) 원의 넓이 로직 추가">
       <change beforePath="$PROJECT_DIR$/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714396789212</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Lev2-(7) 원의 넓이 로직 추가">
+      <option name="closed" value="true" />
+      <created>1714399439083</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1714399439083</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -232,6 +238,7 @@
     <MESSAGE value="Lev2-(6) Calculator 생성자를 통한 컬렉션 필드 초기화" />
     <MESSAGE value="Lev2-(6) resultList 불필요한 초기화 제거" />
     <MESSAGE value="Lev2-(6) 불필요한 import 제거" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lev2-(6) 불필요한 import 제거" />
+    <MESSAGE value="Lev2-(7) 원의 넓이 로직 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lev2-(7) 원의 넓이 로직 추가" />
   </component>
 </project>
