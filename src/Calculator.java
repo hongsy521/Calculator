@@ -37,7 +37,12 @@ public class Calculator {
         System.out.println("결과 : "+ result);
         resultList.add(result);
     }
+    // 첫번째 연산 결과 삭제 메서드
     public void removeResult(){
         resultList.remove(0);
+    }
+    // 연산 결과 조회 메서드
+    public void inquiryResults(){
+        System.out.println(resultList.toString());
     }
 }

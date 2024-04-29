@@ -25,7 +25,7 @@ public class App {
             System.out.println("저장된 연산결과를 조회하시겠습니까? (yes 입력 시 조회)");
             String QInquiry = sc.next();
             if(QInquiry.equals("yes") || QInquiry.equals("y")){
-                System.out.println(calculator.getResultList());
+                calculator.inquiryResults();
             }
 
             // 첫번째 연산결과 삭제 - removeResult 메서드 호출
