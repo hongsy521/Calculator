@@ -3,6 +3,14 @@ import java.util.List;
 
 public class Calculator {
     List<Integer> resultList = new ArrayList<>();
+    // 캡슐화를 통해 간접 접근 하도록 함
+    public List<Integer> getResultList() {
+        return resultList;
+    }
+
+    public void setResultList(List<Integer> resultList) {
+        this.resultList = resultList;
+    }
 
     public void calculate(int num1, int num2, char ch) throws BadInputException {
         int result;
@@ -29,12 +37,7 @@ public class Calculator {
         System.out.println("결과 : "+ result);
         resultList.add(result);
     }
-    // 캡슐화를 통해 간접 접근 하도록 함
-    public List<Integer> getResultList() {
-        return resultList;
-    }
-
-    public void setResultList(List<Integer> resultList) {
-        this.resultList = resultList;
+    public void removeResult(){
+        resultList.remove(0);
     }
 }

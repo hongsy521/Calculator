@@ -22,23 +22,23 @@ public class App {
                 System.out.println(e.getMessage());
             }
             // 연산 결과 저장하는 컬렉션 필드 가져오기
-            System.out.println(calculator.getResultList());
+            System.out.println("저장된 연산결과를 조회하시겠습니까? (yes 입력 시 조회)");
+            String QInquiry = sc.next();
+            if(QInquiry.equals("yes") || QInquiry.equals("y")){
+                System.out.println(calculator.getResultList());
+            }
+
+            // 첫번째 연산결과 삭제 - removeResult 메서드 호출
+            System.out.println("가장 먼저 저장된 연산 결과를 삭제하시겠습니까? (yes 입력 시 삭제)");
+            String QRemove = sc.next();
+            if(QRemove.equals("yes") || QRemove.equals("y")){
+                calculator.removeResult();
+                System.out.println("삭제되었습니다.");
+            }
+
             // 컬렉션 필드 수정하기
             calculator.setResultList(calculator.getResultList());
 
-            /*System.out.println("가장 먼저 저장된 연산 결과를 삭제하시겠습니까? (remove 입력 시 삭제)");
-            String QRemove = sc.next();
-            if(QRemove.equals("remove")){
-                resultList.remove(0);
-            }*/
-            /*System.out.println("저장된 연산결과를 조회하시겠습니까? (inquiry 입력 시 조회)");
-            String QInquiry = sc.next();
-            if(QInquiry.equals("inquiry")){
-                for (Integer i : resultList) {
-                    System.out.print(i+" ");
-                }
-                System.out.println();
-            }*/
             System.out.println("더 계산하시겠습니까? (exit 입력시 종료)");
             String QMore=sc.next();
             if(QMore.equals("exit")){
