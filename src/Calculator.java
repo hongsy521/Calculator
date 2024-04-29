@@ -2,6 +2,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Calculator {
+    public Calculator(List<Integer> resultList) {
+        this.resultList = resultList;
+    }
+
     List<Integer> resultList = new ArrayList<>();
     // 캡슐화를 통해 간접 접근 하도록 함
     public List<Integer> getResultList() {

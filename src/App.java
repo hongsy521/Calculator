@@ -1,10 +1,12 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) {
             // 계산기 프로젝트
         Scanner sc = new Scanner(System.in);
-        Calculator calculator = new Calculator();
+        // 생성자를 통해 연산결과 저장하는 컬렉션 필드 초기화
+        Calculator calculator = new Calculator(new ArrayList<>());
 
         // 무한반복 조건문
         while (true){
