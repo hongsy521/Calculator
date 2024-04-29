@@ -5,7 +5,7 @@ public class Calculator {
     List<Integer> resultList = new ArrayList<>();
 
     public void calculate(int num1, int num2, char ch) throws BadInputException {
-        int result=0;
+        int result;
         switch (ch){
             case '+':
                 result=num1+num2;
