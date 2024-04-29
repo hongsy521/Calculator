@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b9f05b9-5513-4725-8ea4-cca157e628ba" name="Changes" comment="Lev2-(4) remove 메서드 생성 / main에서 실행">
+    <list default="true" id="3b9f05b9-5513-4725-8ea4-cca157e628ba" name="Changes" comment="Lev2-(6) 불필요한 import 제거">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator.java" afterDir="false" />
     </list>
@@ -178,7 +179,39 @@
       <option name="project" value="LOCAL" />
       <updated>1714396053880</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Lev2-(5) inquiry 메서드 생성 / main에서 실행">
+      <option name="closed" value="true" />
+      <created>1714396376734</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1714396376734</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Lev2-(6) Calculator 생성자를 통한 컬렉션 필드 초기화">
+      <option name="closed" value="true" />
+      <created>1714396675884</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1714396675884</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Lev2-(6) resultList 불필요한 초기화 제거">
+      <option name="closed" value="true" />
+      <created>1714396762149</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1714396762149</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Lev2-(6) 불필요한 import 제거">
+      <option name="closed" value="true" />
+      <created>1714396789212</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1714396789212</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -195,6 +228,10 @@
     <MESSAGE value="Lev2-(1)(2) 필요없는 import 삭제" />
     <MESSAGE value="Lev2-(3) getter,setter 메서드 생성" />
     <MESSAGE value="Lev2-(4) remove 메서드 생성 / main에서 실행" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lev2-(4) remove 메서드 생성 / main에서 실행" />
+    <MESSAGE value="Lev2-(5) inquiry 메서드 생성 / main에서 실행" />
+    <MESSAGE value="Lev2-(6) Calculator 생성자를 통한 컬렉션 필드 초기화" />
+    <MESSAGE value="Lev2-(6) resultList 불필요한 초기화 제거" />
+    <MESSAGE value="Lev2-(6) 불필요한 import 제거" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lev2-(6) 불필요한 import 제거" />
   </component>
 </project>

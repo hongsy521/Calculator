@@ -1,20 +1,16 @@
 import java.util.List;
 
 public class Calculator {
-    public Calculator(List<Integer> resultList) {
-        this.resultList = resultList;
-    }
-
     List<Integer> resultList;
-    // 캡슐화를 통해 간접 접근 하도록 함
-    public List<Integer> getResultList() {
-        return resultList;
-    }
+    List<Integer> circleAreaList;
 
-    public void setResultList(List<Integer> resultList) {
+    // 생성자
+    public Calculator(List<Integer> resultList, List<Integer> circleAreaList) {
         this.resultList = resultList;
+        this.circleAreaList = circleAreaList;
     }
 
+    // 사칙연산 계산 메서드
     public void calculate(int num1, int num2, char ch) throws BadInputException {
         int result;
         switch (ch){
@@ -40,12 +36,40 @@ public class Calculator {
         System.out.println("결과 : "+ result);
         resultList.add(result);
     }
-    // 첫번째 연산 결과 삭제 메서드
+    // 캡슐화를 통해 간접 접근 하도록 함 - getter, setter
+    public List<Integer> getResultList() {
+        return resultList;
+    }
+    public void setResultList(List<Integer> resultList) {
+        this.resultList = resultList;
+    }
+
+    public List<Integer> getCircleAreaList() {
+        return circleAreaList;
+    }
+
+    public void setCircleAreaList(List<Integer> circleAreaList) {
+        this.circleAreaList = circleAreaList;
+    }
+
+
+    // 원의 넓이 계산하고 리스트에 넣기
+    public int calculateCircleArea(int raduis){
+        int circleArea;
+        circleArea=raduis*raduis;
+        circleAreaList.add(circleArea);
+        return circleArea;
+    }
+    // 연산 결과 조회 메서드 (원의 넓이)
+    public void inquiryCircleArea(){
+        System.out.println(this.getCircleAreaList());
+    }
+    // 연산 결과 조회 메서드 (사칙연산)
+    public void inquiryResults(){
+        System.out.println(this.getResultList());
+    }
+    // 첫번째 연산 결과 삭제 메서드 (사칙연산)
     public void removeResult(){
         resultList.remove(0);
-    }
-    // 연산 결과 조회 메서드
-    public void inquiryResults(){
-        System.out.println(resultList.toString());
     }
 }
