@@ -6,7 +6,7 @@ public class Calculator {
         this.resultList = resultList;
     }
 
-    List<Integer> resultList = new ArrayList<>();
+    List<Integer> resultList;
     // 캡슐화를 통해 간접 접근 하도록 함
     public List<Integer> getResultList() {
         return resultList;
