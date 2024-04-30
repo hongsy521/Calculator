@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class ArithmeticCalculator extends Calculator{
@@ -5,6 +6,10 @@ public class ArithmeticCalculator extends Calculator{
     public ArithmeticCalculator(List<Integer> resultList) {
         super(resultList);
     }
+    ArithmeticCalculator add = new AddOperator(new ArrayList<>());
+    ArithmeticCalculator sub = new AddOperator(new ArrayList<>());
+    ArithmeticCalculator multi = new AddOperator(new ArrayList<>());
+    ArithmeticCalculator div = new AddOperator(new ArrayList<>());
 
     @Override
     // 사칙연산 계산 메서드
