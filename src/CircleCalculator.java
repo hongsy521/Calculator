@@ -7,7 +7,7 @@ public class CircleCalculator extends Calculator{
     }
 
     @Override
-    public int calculate(int num1, int num2, char ch) throws BadInputException {
+    public int calculate(int num1, int num2, char ch) {
         return 0;
     }
 
