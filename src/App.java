@@ -6,7 +6,8 @@ public class App {
             // 계산기 프로젝트
         Scanner sc = new Scanner(System.in);
         // 생성자를 통해 연산결과 저장하는 컬렉션 필드 초기화
-        Calculator calculator = new Calculator(new ArrayList<>(),new ArrayList<>());
+        Calculator calculator1 = new ArithmeticCalculator(new ArrayList<>());
+        Calculator calculator2 = new CircleCalculator(new ArrayList<>());
 
         // 무한반복 조건문
         while (true){
@@ -23,7 +24,7 @@ public class App {
 
                     // 계산 메서드 호출 - 예외 확인
                     try {
-                        calculator.calculate(num1,num2,ch);
+                        System.out.println("결과 : "+calculator1.calculate(num1,num2,ch));
                     }catch (BadInputException e){
                         System.out.println(e.getMessage());
                     }
@@ -31,33 +32,32 @@ public class App {
                     System.out.println("저장된 연산결과를 조회하시겠습니까? (yes 입력 시 조회)");
                     String QInquiry = sc.next();
                     if(QInquiry.equals("yes") || QInquiry.equals("y")){
-                        calculator.inquiryResults();
+                        calculator1.inquiryResult();
                     }
 
                     // 첫번째 연산결과 삭제 - removeResult 메서드 호출
                     System.out.println("가장 먼저 저장된 연산 결과를 삭제하시겠습니까? (yes 입력 시 삭제)");
                     String QRemove = sc.next();
                     if(QRemove.equals("yes") || QRemove.equals("y")){
-                        calculator.removeResult();
-                        System.out.println("삭제되었습니다.");
+                        calculator1.removeResult();
                     }
 
                     // 컬렉션 필드 수정하기
-                    calculator.setResultList(calculator.getResultList());
+                    calculator1.setResultList(calculator1.getResultList());
 
                     break;
                 case 2:
                     System.out.println("넓이를 구할 반지름을 입력하세요.");
                     int raduis=sc.nextInt();
                     // 원 넓이 구하는 메서드 호출
-                    System.out.println("결과 : "+calculator.calculateCircleArea(raduis));
+                    System.out.println("결과 : "+calculator2.calculateCircle(raduis));
                     // 필드에 간접 접근
-                    calculator.setCircleAreaList(calculator.getCircleAreaList());
+                    calculator2.setResultList(calculator2.getResultList());
 
                     System.out.println("저장된 연산결과를 조회하시겠습니까? (yes 입력 시 조회)");
                     String QInquiry2 = sc.next();
                     if(QInquiry2.equals("yes") || QInquiry2.equals("y")){
-                        calculator.inquiryCircleArea();
+                        calculator2.inquiryResult();
                     }
                     break;
             }
