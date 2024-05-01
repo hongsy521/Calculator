@@ -6,10 +6,10 @@ public class ArithmeticCalculator extends Calculator{
     public ArithmeticCalculator(List<Integer> resultList) {
         super(resultList);
     }
-    AddOperator addOperator= new AddOperator(new ArrayList<>());
-    SubtractOperator subtractOperator = new SubtractOperator(new ArrayList<>());
-    MultiplyOperator multiplyOperator = new MultiplyOperator(new ArrayList<>());
-    DivideOperator divideOperator = new DivideOperator(new ArrayList<>());
+    AddOperator addOperator= new AddOperator();
+    SubtractOperator subtractOperator = new SubtractOperator();
+    MultiplyOperator multiplyOperator = new MultiplyOperator();
+    DivideOperator divideOperator = new DivideOperator();
 
 
     @Override

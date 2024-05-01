@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b9f05b9-5513-4725-8ea4-cca157e628ba" name="Changes" comment="Lev2-(9) 사칙연산 메서드 분리">
+    <list default="true" id="3b9f05b9-5513-4725-8ea4-cca157e628ba" name="Changes" comment="Lev2-(9) 사칙연산 메서드 분리 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AddOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AddOperator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ArithmeticCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArithmeticCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DivideOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DivideOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MultiplyOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MultiplyOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SubtractOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SubtractOperator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,7 +254,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714447440346</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Lev2-(9) 사칙연산 메서드 분리 2">
+      <option name="closed" value="true" />
+      <created>1714533249281</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1714533249281</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -277,6 +288,7 @@
     <MESSAGE value="Lev2-(8) 클래스 분리 / 추상 클래스에 대한 상속 오버라이딩" />
     <MESSAGE value="Lev2-(8) 사용되지 않는 부분 정리" />
     <MESSAGE value="Lev2-(9) 사칙연산 메서드 분리" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lev2-(9) 사칙연산 메서드 분리" />
+    <MESSAGE value="Lev2-(9) 사칙연산 메서드 분리 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lev2-(9) 사칙연산 메서드 분리 2" />
   </component>
 </project>
