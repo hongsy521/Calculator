@@ -6,10 +6,12 @@ public class ArithmeticCalculator extends Calculator{
     public ArithmeticCalculator(List<Integer> resultList) {
         super(resultList);
     }
-    AddOperator addOperator= new AddOperator();
-    SubtractOperator subtractOperator = new SubtractOperator();
-    MultiplyOperator multiplyOperator = new MultiplyOperator();
-    DivideOperator divideOperator = new DivideOperator();
+    InterfaceOperation addOperator = new AddOperator();
+
+    InterfaceOperation subtractOperator = new SubtractOperator();
+    InterfaceOperation multiplyOperator = new MultiplyOperator();
+    InterfaceOperation divideOperator = new DivideOperator();
+    InterfaceOperation modOperator = new ModOperator();
 
 
     @Override
@@ -27,7 +29,13 @@ public class ArithmeticCalculator extends Calculator{
                 result=multiplyOperator.operate(num1, num2);
                 break;
             case '/':
+                if(num2==0){
+                    throw new BadInputException();
+                }
                 result=divideOperator.operate(num1, num2);
+                break;
+            case '%':
+                result= modOperator.operate(num1,num2);
                 break;
             default:
                 throw new BadInputException();   // 잘못된 연산자일 경우 throw

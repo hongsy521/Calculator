@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b9f05b9-5513-4725-8ea4-cca157e628ba" name="Changes" comment="Lev2-(9) 사칙연산 메서드 분리 2">
+    <list default="true" id="3b9f05b9-5513-4725-8ea4-cca157e628ba" name="Changes" comment="Lev2-(9) 사칙연산 메서드 분리 후 실행 완료 / 필요없는 import 삭제">
+      <change afterPath="$PROJECT_DIR$/src/InterfaceOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ModOperator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AddOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AddOperator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ArithmeticCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArithmeticCalculator.java" afterDir="false" />
@@ -20,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -262,7 +265,23 @@
       <option name="project" value="LOCAL" />
       <updated>1714533249281</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Lev2-(9) 사칙연산 메서드 분리 후 실행 완료">
+      <option name="closed" value="true" />
+      <created>1714539630523</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1714539630523</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Lev2-(9) 사칙연산 메서드 분리 후 실행 완료 / 필요없는 import 삭제">
+      <option name="closed" value="true" />
+      <created>1714539747029</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1714539747029</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -289,6 +308,8 @@
     <MESSAGE value="Lev2-(8) 사용되지 않는 부분 정리" />
     <MESSAGE value="Lev2-(9) 사칙연산 메서드 분리" />
     <MESSAGE value="Lev2-(9) 사칙연산 메서드 분리 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lev2-(9) 사칙연산 메서드 분리 2" />
+    <MESSAGE value="Lev2-(9) 사칙연산 메서드 분리 후 실행 완료" />
+    <MESSAGE value="Lev2-(9) 사칙연산 메서드 분리 후 실행 완료 / 필요없는 import 삭제" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lev2-(9) 사칙연산 메서드 분리 후 실행 완료 / 필요없는 import 삭제" />
   </component>
 </project>
