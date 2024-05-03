@@ -6,12 +6,18 @@ public class ArithmeticCalculator extends Calculator{
     public ArithmeticCalculator(List<Double> resultList) {
         super(resultList);
     }
-    InterfaceOperation addOperator = new AddOperator();
+    /*InterfaceOperation addOperator = new AddOperator();
 
     InterfaceOperation subtractOperator = new SubtractOperator();
     InterfaceOperation multiplyOperator = new MultiplyOperator();
     InterfaceOperation divideOperator = new DivideOperator();
-    InterfaceOperation modOperator = new ModOperator();
+    InterfaceOperation modOperator = new ModOperator();*/
+
+    OperatorType op1=OperatorType.PLUS;
+    OperatorType op2=OperatorType.MINUS;
+    OperatorType op3=OperatorType.MULTIPLICATION;
+    OperatorType op4=OperatorType.DIVISION;
+    OperatorType op5=OperatorType.REMAIN;
 
 
     @Override
@@ -20,22 +26,22 @@ public class ArithmeticCalculator extends Calculator{
         double result;
         switch (ch){
             case '+':
-                result=addOperator.operate(num1,num2);
+                result=op1.operate(num1,num2);
                 break;
             case '-':
-                result=subtractOperator.operate(num1,num2);
+                result=op2.operate(num1,num2);
                 break;
             case '*':
-                result=multiplyOperator.operate(num1, num2);
+                result=op3.operate(num1,num2);
                 break;
             case '/':
                 if(num2==0){
                     throw new BadInputException();
                 }
-                result=divideOperator.operate(num1, num2);
+                result=op4.operate(num1,num2);
                 break;
             case '%':
-                result= modOperator.operate(num1,num2);
+                result= op5.operate(num1,num2);
                 break;
             default:
                 throw new BadInputException();   // 잘못된 연산자일 경우 throw
