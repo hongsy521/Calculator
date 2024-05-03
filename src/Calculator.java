@@ -1,27 +1,28 @@
 import java.util.List;
 
 public abstract class Calculator {
-    List<Integer> resultList;
+    List<Double> resultList;
 
-    public Calculator(List<Integer> resultList) {
+    public Calculator(List<Double> resultList) {
         this.resultList = resultList;
     }
 
     // 캡슐화를 통해 간접 접근 하도록 함 - getter, setter
-    public List<Integer> getResultList() {
+    public List<Double> getResultList() {
         return resultList;
     }
 
-    public void setResultList(List<Integer> resultList) {
+    public void setResultList(List<Double> resultList) {
         this.resultList = resultList;
     }
 
+    // 매개변수 다른 같은 이름의 메서드 - 오버로딩
     // 사칙연산 계산 메서드
-    public abstract int calculate(int num1, int num2, char ch) throws BadInputException;
+    public abstract double calculate(int num1, int num2, char ch) throws BadInputException;
 
 
     // 원의 넓이 계산 메서드
-    public abstract int calculateCircle(int raduis);
+    public abstract double calculate(int raduis);
 
     public void inquiryResult() {
         System.out.println(this.getResultList());

@@ -3,7 +3,7 @@ import java.util.List;
 
 public class ArithmeticCalculator extends Calculator{
 
-    public ArithmeticCalculator(List<Integer> resultList) {
+    public ArithmeticCalculator(List<Double> resultList) {
         super(resultList);
     }
     InterfaceOperation addOperator = new AddOperator();
@@ -16,8 +16,8 @@ public class ArithmeticCalculator extends Calculator{
 
     @Override
     // 사칙연산 계산 메서드
-    public int calculate(int num1, int num2, char ch) throws BadInputException {
-        int result;
+    public double calculate(int num1, int num2, char ch) throws BadInputException {
+        double result;
         switch (ch){
             case '+':
                 result=addOperator.operate(num1,num2);
@@ -45,7 +45,7 @@ public class ArithmeticCalculator extends Calculator{
     }
 
     @Override
-    public int calculateCircle(int raduis) {
+    public double calculate(int raduis) {
         return 0;
     }
 

@@ -50,7 +50,7 @@ public class App {
                     System.out.println("넓이를 구할 반지름을 입력하세요.");
                     int raduis=sc.nextInt();
                     // 원 넓이 구하는 메서드 호출
-                    System.out.println("결과 : "+calculator2.calculateCircle(raduis));
+                    System.out.println("결과 : "+calculator2.calculate(raduis));
                     // 필드에 간접 접근
                     calculator2.setResultList(calculator2.getResultList());
 
